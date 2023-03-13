@@ -5,10 +5,10 @@ spring:
   application:
     name: catalog-service
 
-# REVISAR si ya esta con la linea 7 a 9
-#info:
-  #application:
-    #name: api-catalog
+
+info:
+  application:
+    name: catalog-service
 
 eureka:
   instance:
