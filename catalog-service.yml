@@ -9,6 +9,8 @@ spring:
 info:
   application:
     name: catalog-service
+    description: Catalog Service for Catalog Application
+    
 
 eureka:
   instance:
