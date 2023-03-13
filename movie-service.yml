@@ -10,10 +10,14 @@ spring:
     username: movie-user
     password: movie-password
   jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        show-sql: true
     generate-ddl: true
-    show-sql: true
     hibernate:
       ddl-auto: create-drop
+      #ddl-auto: update
     
 
   info:
