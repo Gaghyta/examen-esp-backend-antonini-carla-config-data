@@ -10,12 +10,14 @@ spring:
     username: movie-user
     password: movie-password
   jpa:
-    hibernate.ddl-auto: create-drop
     generate-ddl: true
     show-sql: true
+    hibernate:
+      ddl-auto: create-drop
     properties:
       hibernate:
         hbm2ddl:
+          #ddl-auto: create-drop
           import_files: movie-service.sql
 
   info:
