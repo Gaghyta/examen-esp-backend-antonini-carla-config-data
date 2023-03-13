@@ -10,8 +10,8 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: id-api-catalog
-          uri: lb://api-catalog
+        - id: id-catalog-service
+          uri: lb://catalog-service
           predicates:
             - Path=/api/v1/catalog/**
 
