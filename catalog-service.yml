@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: api-catalog
+    name: catalog-service
 
 # REVISAR si ya esta con la linea 7 a 9
 #info:

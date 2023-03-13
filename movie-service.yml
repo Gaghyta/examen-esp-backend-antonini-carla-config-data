@@ -6,7 +6,7 @@ spring:
     name: movie-service
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3333/movie-db
+    url: jdbc:mysql://localhost:3306/movie-db
     username: movie-user
     password: movie-password
   jpa:
@@ -14,11 +14,7 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: create-drop
-    properties:
-      hibernate:
-        hbm2ddl:
-          #ddl-auto: create-drop
-          import_files: movie-service.sql
+    
 
   info:
     application:
